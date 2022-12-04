@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.1.1.min.js"></script>
+    <script src="../Scripts/Service.js"></script>
+    <script src="../Scripts/ClientHomePage.js"></script>
+
+</head>
+<body>
+    <!--Display All Records-->
+    <div id="heroOverview" style="background-color:honeydew">
+        <h5> List of all Records </h5>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Code</td>
+                    <td>Name</td>
+                    <td>Exchange</td>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+   "updateClient();">Update</button>
+    </div>
+    <!--Delete Records-->
+    <div id="deleteClientForm" style="background-color:darkgray">
+        <h5> Delete Records </h5>
+        <input type="text" placeholder="Id" id="deleteId" /><br />
+        <button onclick="deleteClient();">Delete</button>
+    </div>
+</body>
+</html>
